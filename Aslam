@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "hello welcome its ur first jenkins  build output"
+
+function muli {
+num=2
+initnum=1
+while [[ ${initnum} -le 10 ]]
+do
+ echo "$num * $initnum =" $(( initnum * num ))
+ ((initnum++))
+done
+
+}
+
+muli
